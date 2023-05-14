@@ -1,5 +1,6 @@
 #!/bin/bash
 mkdir VotingApp
+wget https://dlcdn.apache.org/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.tar.gz
 cp mvnw mvnw.cmd pom.xml VotingApp
 cp -R src VotingApp
 tar -czvf VotingApp.tar.gz VotingApp
